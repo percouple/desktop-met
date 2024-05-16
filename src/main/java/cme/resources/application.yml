@@ -1,0 +1,8 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+    restart:
+      additional-paths: src/main/resources, src/test/java
+    livereload:
+      enabled: true

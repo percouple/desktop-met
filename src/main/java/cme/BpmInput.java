@@ -8,10 +8,8 @@ public class BpmInput extends JPanel {
     
     BpmInput() {
 
-
         JPanel bpmField = new JPanel();
         bpmField.setLayout(new FlowLayout());
-        
 
         JLabel label = new JLabel ("Enter your name: ");
 
