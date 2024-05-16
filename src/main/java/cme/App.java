@@ -19,7 +19,6 @@ public class App
         PlayButton playButton = new PlayButton("Play");
         bpmInput.setBackground(new Color(57, 70, 84));
 
-
         JFrame frame = new JFrame();
         frame.setLayout(new FlowLayout());
 
