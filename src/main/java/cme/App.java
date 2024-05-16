@@ -1,6 +1,7 @@
 package cme;
 import javax.swing.*;
 import java.awt.Color;
+import java.awt.FlowLayout;
 
 /**
  * Hello world!
@@ -15,11 +16,15 @@ public class App
         System.out.println( "Still running!" );
 
         BpmInput bpmInput = new BpmInput();
+        PlayButton playButton = new PlayButton("Play");
         bpmInput.setBackground(new Color(57, 70, 84));
 
+
         JFrame frame = new JFrame();
+        frame.setLayout(new FlowLayout());
 
         frame.add(bpmInput);
+        frame.add(playButton);
 
         // WINDOW SETTINGS
         frame.setTitle("DeskMet"); // Sets title of the frame

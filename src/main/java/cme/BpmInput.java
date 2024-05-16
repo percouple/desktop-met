@@ -11,7 +11,7 @@ public class BpmInput extends JPanel {
         JPanel bpmField = new JPanel();
         bpmField.setLayout(new FlowLayout());
 
-        JLabel label = new JLabel ("Enter your name: ");
+        JLabel label = new JLabel ("Tempo");
 
         JTextField textField = new JTextField(3);
 
